@@ -58,6 +58,7 @@ section{
 	padding-left: 30px;
 	font-family:var(--font3);
 	font-size:2.5vw;
+	
 }
 
 section.normal{
@@ -66,15 +67,37 @@ section.normal{
 }
 
 section.imagen{
+	box-shadow: inset 2px 2px 3px black;
 	background-color: black;
-	color:white
+	color:white;
+	background-size:cover;
+	background-position: center center;
+	background-attachment:fixed;
 }
 
 section.imagen p{
 	display: inline-block;
-	background-color: rgb(86, 85, 85);
+	background:linear-gradient(130deg , rgba(0, 0, 0, 0.201),rgba(255, 255, 255, 0.338));
 	padding:1em;
+	text-shadow:1px 1px 2px black;
 }
+
+section p{
+	padding-top:2em;
+	
+}
+
+/*imagens nas sections*/
+
+section#img01{
+	background-image: url("../imagens/background001.jpg");
+	
+}
+
+section#img02{
+	background-image: url("../imagens/background002.jpg");
+}
+
 
 
 /*roda pe*/
