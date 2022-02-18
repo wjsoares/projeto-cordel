@@ -1,2 +1,73 @@
 @charset "utf8";
 
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+html,body{
+	min-height: 100vh;
+	background-color: darkgray;
+}
+
+/*cabeçalho*/
+header{
+	background-color: black;
+	color:white;
+	text-align: center;
+	
+}
+
+header > h1{
+	padding-top:50px;
+	font-variant: small-caps;
+}
+
+header > p{
+	padding-bottom:50px ;
+
+}
+
+a{
+	text-decoration: none;
+	color:white;
+	font-weight:bold;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*seçao*/
+
+section{
+	padding:10vh 0;
+	line-height: 2em;
+	padding-left: 30px;
+}
+
+section.normal{
+	background-color: white;
+	color:black;
+}
+
+section.imagen{
+	background-color: black;
+	color:white
+}
+
+section p{
+	background-color: rgba(0, 0, 0, 0.64);
+	width:500px;
+}
+
+
+/*roda pe*/
+footer{
+	color:white;
+	background-color: black;
+	text-align:Center;
+	padding:1rem;
+}
