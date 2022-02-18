@@ -107,3 +107,6 @@ footer{
 	text-align:Center;
 	padding:1rem;
 }
+footer p{
+	font-variant: small-caps;
+}
